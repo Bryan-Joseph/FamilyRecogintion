@@ -20,9 +20,6 @@ classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models
 function mloaded() {
     console.log("loaded");
 }
-/*
-
-Code for next project
 
 function result(error,result) {
     if (error) {
@@ -38,4 +35,3 @@ function verifyPerson() {
     img = document.getElementById("capturedImage");
     classifier.classify(img,result);
 }
-*/
